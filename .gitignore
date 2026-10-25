@@ -1,0 +1,124 @@
+# ---------- Built application files ----------
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+output-metadata.json
+
+# ---------- Build directories ----------
+build/
+/captures
+.externalNativeBuild/
+.cxx/
+bin/
+gen/
+out/
+
+# ---------- Gradle ----------
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+.kotlin/
+
+# ---------- Local configuration ----------
+local.properties
+*.local.properties
+
+# ---------- Signing & secrets (never commit these) ----------
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+google-services.json
+*.pem
+*.p12
+.env
+.env.*
+secrets.properties
+
+# ---------- Android Studio / IntelliJ ----------
+*.iml
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deploymentTargetDropDown.xml
+.idea/misc.xml
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/AndroidProjectSystem.xml
+.idea/migrations.xml
+.idea/appInsightsSettings.xml
+.idea/studiobot.xml
+.idea/inspectionProfiles/
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/.gitignore
+.idea/.name
+*.ipr
+*.iws
+
+# ---------- Generated files ----------
+*.log
+captures/
+proguard/
+lint-report*
+lint-results*
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+**/release/*.txt
+reports/
+.navigation/
+
+# ---------- Test output ----------
+test-results/
+androidTest-results/
+
+# ---------- Native / NDK ----------
+*.so.debug
+obj/
+libs/armeabi*/
+libs/x86*/
+
+# ---------- Fastlane ----------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# ---------- Version control leftovers ----------
+*.orig
+*.rej
+
+# ---------- OS files ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+.directory
+
+# ---------- Other editors ----------
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
